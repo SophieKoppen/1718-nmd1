@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Work+Sans:300" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css"/>
+<title>hallo iedereen!</title>
+<header>
+
+  -Sophie Koppen -
+</header>
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="knop">
+<button class="tablink" onclick="openPage('Home', this, '#8F8D8D')"id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('News', this, '#8F8D8D')" >curriculum vitae</button>
+<button class="tablink" onclick="openPage('Contact', this, '#8F8D8D')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, '#8F8D8D')">My Work</button>
+</div>
+<div id="Home" class="tabcontent">
+    <img src="images/meee kopie.jpg" class="ik" alt= "ik"/>     
+  <div class="t">
+    <h1>Welkom!</h1>
+    <p>Welkom op de website van New Media Design Lesweek 3.<br>
+        In lesweek 3 kregen we de opdrcaht om een webpagina te maken en onszelf een beetje voor te stellen aan de hand van een cv. <br>
+        En na veel bloed, zweet en tranen is dit het eindresultaat, de site waar u meer te weten zal komen over mij, Sophie Koppen.<br> <br>
+    Enjoy!
+
+  </div>
+</div>
+
+<div id="News" class="tabcontent">
+    <h1>Curriculum Vitae</h1>   
+    <h2>Personalia</h2>
+    <p>
+        naam: Sophie koppen</p>
+    <p>
+        geboortedatum: 16/10/1999</p>
+    <p>
+       adres: Drieschouwen 48 </p>
+    <p>  
+        9190 Stekene</p>
+    
+    <h2>Opleiding</h2>
+    
+    <p>basisschool: toermalijn</p>
+       <p> middelbaar: Broederschool Stekene, economie wiskude (2011-2015)</p>
+       <p> broederschool Sint niklaas, economie moderne talen (2015-2017)
+    </p>
+    <h2>Werkervaring </h2>
+    <p>vrijwillegerswerk speelplein riebedebie Stekene (2015- heden)</p>
+    <p>interieurverzorging OCMW soetenaard Stekene (zomer 2017)</p>
+    <h2>persoonlijke vaardigheden</h2>
+    <p>creatief</p>
+    <p>sociale vaardigheden</p>
+    <h2>Talen</h2>
+    <p> Frans: moedertaal </p>
+       <p>Nederlands: moedertaal</p> 
+        <p>Engels: goed </p> 
+        <p>Duits: basis</p> 
+    <h2>Computerkennis</h2>
+    <p>Adobe indesign: basis</p>
+    <p>Adobe illustrator: goed</p>
+    <p>Adobe photoshop: basis</p>
+    <br>
+    <br>
+</div>
+
+<div id="Contact" class="tabcontent">
+    <h1>Contact</h1>  
+    <br>
+    <h3><i class="fa fa-envelope-o" aria-hidden="true"></i> sophie.koppen@gmail.com</h3>
+    <br>
+    <h3><i class="fa fa-phone" aria-hidden="true"></i>  03 779 63 42</h3>
+    <br>
+    <h3><i class="fa fa-mobile" aria-hidden="true"></i>  04 70 07 93 81</h3>
+    <br>
+    <h3><i class="fa fa-facebook-square" aria-hidden="true"></i> Sophie Koppen</h3>
+    <br>
+    <h3><i class="fa fa-instagram" aria-hidden="true"></i> Sophie Koppen</h3>
+    </body>
+</div>
+
+<div id="About" class="tabcontent">
+<img src="images/pib.png" class="g" alt="pib">
+<img src="images/stad.png" class="g" alt="pib">
+<img src="images/vlinder.png" class="g" alt="pib">
+<img src="images/wv.png" class="g" alt="pib">
+<img src="images/haar.png" class="g" alt="pib">
+<img src="images/logos.png" class="g" alt="pib">
+<img src="images/examen.png" class="g" alt="pib">
+<img src="images/adele.png" class="g" alt="pib">
+<img src="images/takjes.jpg" class="g" alt="pib">
+<img src="images/bloem.jpg" class="g" alt="pib">
+<img src="images/dl.jpg" class="g" alt="pib">
+<img src="images/gezicht.jpg" class="g" alt="pib">
+<img src="images/ld.jpg" class="g" alt="pib">
+<img src="images/lh.jpg" class="g" alt="pib">
+<img src="images/mc.jpg" class="g" alt="pib">
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html> 
+

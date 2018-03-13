@@ -1,0 +1,72 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: #2E2C2C;
+    display: none;
+    padding: 100px 20px;
+    background-repeat: repeat-y;
+}
+
+#Home {background-color: rgba(180, 194, 192, 0.83);
+    padding-bottom: 300px;
+}
+
+#News {background-color: rgba(180, 194, 192, 0.83);
+padding-left: 100px;}
+#Contact {background-color: rgba(180, 194, 192, 0.83);
+padding-left: 100px;}
+#About {background-color: rgba(180, 194, 192, 0.83);}
+header{height: 250px;
+ background-color:rgb(195, 218, 216) ;
+    color: rgba(52, 105, 102, 0.76);
+    text-align: center;
+    font-family: 'Pacifico',cursive ; 
+    background-repeat: repeat-x;
+    font-size: 40px;
+    padding-top: 30px;
+    font-size: 90px;
+    
+  
+    
+    }
+
+.ik{width: 20%;
+border-radius: 50%;
+float: left;
+padding: 30px;}
+
+.t{padding-top: 30px;}
+.g{height: 300px;
+    margin: 25px;
+   box-shadow: 10px 10px 5px #aaaaaa;}
+
+
+
+
+
+
